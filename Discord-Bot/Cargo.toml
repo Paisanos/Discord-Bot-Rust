@@ -1,0 +1,8 @@
+[package]
+name = "Discord-Bot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serenity = {version = "0.10.10", features = ["client", "gateway"]}
+tokio = {version = "1", features = ["full"]}
